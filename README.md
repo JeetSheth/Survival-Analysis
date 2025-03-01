@@ -57,8 +57,6 @@ library(survminer)
 
 ggcoxdiagnostics(cox_model, type = "deviance", ggtheme = theme_bw())
 
-ggsurvplot(km_fit)
 
-ggcoxdiagnostics(cox_model)
 
 
